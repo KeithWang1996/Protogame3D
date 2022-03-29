@@ -1,0 +1,22 @@
+<MapDefinition type="TileMap" version="1" dimensions="8,5">
+
+	<Legend>
+		<Tile glyph="#" regionType="CobblestoneWall"/>
+		<Tile glyph="." regionType="StoneFloor"/>
+	</Legend>
+	<MapRows>
+		<MapRow tiles="########"/>
+		<MapRow tiles="#......#"/>
+		<MapRow tiles="#......#"/>
+		<MapRow tiles="#......#"/>
+		<MapRow tiles="########"/>
+	</MapRows>
+	<Entities>
+		<PlayerStart pos="1.5,1.5" yaw="30"/>
+    <Portal type="Teleporter" pos="3.5,3.5" yaw="90"
+       destMap="TestRoom" destPos="1.5,1.5" destYawOffset="0"/>
+	</Entities>
+
+</MapDefinition>
+
+
